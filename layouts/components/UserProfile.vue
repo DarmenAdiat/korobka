@@ -6,7 +6,7 @@ const ability = useAbility()
 
 // TODO: Get type from backend
 const userData = useCookie('userData')
-console.log(userData)
+
 const { signOut } = useAuth()
 
 async function logout() {
